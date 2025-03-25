@@ -17,9 +17,18 @@ Class KMOOC:모두를위한머신러닝
 - 비용함수 $J(w)$
   - $J(w)=-\frac{1}{m}\sum_{i=1}^{m}\text{cost}(h(x^{(i)}, y^{(i)}))$
   - 최적의 parameter $w^{*}=\min_{w}J(w)$
-  - $h(x)$의 값을 계산해 $0.5$보다 큰지 작은지 비교 후 $\text{predicted}\;y$를 구해볼 수 있음
+  - $h(x)$의 값을 계산해 $0.5$보다 큰지 작은지 비교 후 예상되는 $y$를 구해볼 수 있음
 
 
 - parameter $w$를 update 하는 방법
   - 학습 상수 $\alpha$에 대해
   - $w_{j}:=w_{j}-\alpha \nabla J(w)$
+
+
+## Code execution result
+
+- 초기 데이터 $\text{iteration} = 0$
+- ![Image](https://github.com/user-attachments/assets/b3249417-0e20-491f-812a-0df5be201a1e)
+
+- $\text{iteration} = 800$일 때
+- ![Image](https://github.com/user-attachments/assets/892cd20c-3f27-435f-95bb-9e76391cb764)
