@@ -8,7 +8,15 @@ Class KMOOC:모두를위한머신러닝
 - Hypothsis Function $h(x)=\frac{1}{1+e^{-w^{T}x}}$
 
 - Linear Regression과 다르게 Cost Function을 사용하는 차이점 존재
-- $\text{cost}(h(x), y)=\begin{cases}-\log (h(x)) & \text{if\,\;}y=1 \\ -\log(1-h(x)) & \text{if\,\;}y=0 \end{cases}$
+- $\newlength{\temp}
+\settowidth{\temp}{$-\sqrt{-x}$}
+\begin{align}
+\text{cost}(h(x), y) &= 
+  \begin{cases}
+    \makebox[\temp][l]{$-\log (h(x))$} & \quad\text{if\;} y= 1,\\
+    -\log(1-h(x)) & \quad\text{if\;} y=0,
+  \end{cases}\\
+\end{align}$
 
 - 비용함수 $J(w)=-\frac{1}{m}\sum_{i=1}^{m}\text{cost}(h(x^{(i)}, y^{(i)}))$
 - 최적의 parameter $w^{*}=\min_{w}J(w)$
