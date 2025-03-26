@@ -34,9 +34,14 @@ $$
 
 $$J(w)=-\frac{1}{m}\sum_{i=1}^{m}\text{cost}(h(x^{(i)}, y^{(i)}))$$
 
-최적의 parameter $$w^{*}=\min_{w}J(w)$$
+<br/>
 
-$h(x)$의 값을 계산해 $0.5$보다 큰지 작은지 비교 후 예상되는 $y$를 구해볼 수 있음
+- 최적의 parameter
+
+$$w^{*}=\min_{w}J(w)$$
+
+
+- $w^{*}$를 통해 $h(x)$의 값을 계산해 $0.5$보다 큰지 작은지 비교 후 예상되는 $y$를 구해볼 수 있음
 
 <br/>
 
@@ -52,10 +57,12 @@ $$w_{j}:=w_{j}-\alpha \nabla J(w)$$
 
 <br/>
 
-- 초기 데이터 ($\text{iterations} = 0$)
+- 초기 데이터 ($\text{iterations} = 0 \cdot 8$)
+
 ![Image](https://github.com/user-attachments/assets/b3249417-0e20-491f-812a-0df5be201a1e)
 
 <br/>
 
-- 100번 업데이트 ($\text{iterations} = 800$)
+- 100번 업데이트 ($\text{iterations} = 100 \cdot 8$)
+  
 ![Image](https://github.com/user-attachments/assets/892cd20c-3f27-435f-95bb-9e76391cb764)
