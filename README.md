@@ -9,9 +9,9 @@ Class KMOOC:모두를위한머신러닝
 
 <br/>
 
-- Hypothsis Function
+- Hypothsis Function $h(x)$
 
-$m$개의 examples $${(x^{(1)}, y^{(1)}), (x^{(2)}, y^{(2)}), \cdots, (x^{(m)}, y^{(m)})}$$ 가 주어졌을 때,
+- $m$개의 examples $${(x^{(1)}, y^{(1)}), (x^{(2)}, y^{(2)}), \cdots, (x^{(m)}, y^{(m)})}$$ 가 주어졌을 때,
 
 $$h(x)=\frac{1}{1+e^{-w^{T}x}}$$
 
